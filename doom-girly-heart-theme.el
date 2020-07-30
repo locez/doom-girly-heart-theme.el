@@ -168,6 +168,7 @@
     ;; org-mode
     ((org-block &override) :background (doom-lighten base5 0.5))
     ((org-block-begin-line &override) :background (doom-lighten base5 0.5) :foreground comments)
+    ((org-quote &override) :background (doom-lighten base5 0.5))
     (org-hide :foreground hidden)
     (org-link :inherit 'underline :foreground yellow)
     (org-agenda-done :foreground cyan)
