@@ -242,6 +242,10 @@
    (pyim-page-border :background magenta :foreground magenta)
    (pyim-page-selection :background girly-highlight :foreground magenta)))
 
+   ;; rime
+   (rime-default-face :background bg-alt :foreground magenta)
+   (rime-candidate-num-face :background bg-alt :foreground magenta)
+   (rime-highlight-candidate-face :background girly-highlight-selected :foreground magenta)))
 
 
 ;;; doom-girly-heart-theme.el ends here
